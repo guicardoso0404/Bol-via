@@ -500,6 +500,17 @@ section h2::after {
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
+.biografia-imagem {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    margin: 20px auto;
+    display: block;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    border: 3px solid var(--primary-color);
+}
+
 .biografia-header {
     border-bottom: 3px solid var(--accent-color);
     padding-bottom: 20px;
@@ -794,6 +805,11 @@ section h2::after {
 
     .biografia-card {
         padding: 20px;
+    }
+
+    .biografia-imagem {
+        max-width: 100%;
+        margin: 15px auto;
     }
 
     .biografia-header {
